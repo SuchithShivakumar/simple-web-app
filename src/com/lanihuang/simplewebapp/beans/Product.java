@@ -5,6 +5,7 @@ public class Product {
   private String code;
   private String name;
   private float price;
+  private int barCode;
 
   public Product() {
 
@@ -14,6 +15,7 @@ public class Product {
     this.code = code;
     this.name = name;
     this.price = price;
+    this.barCode = barCode;
   }
 
   public String getCode() {
