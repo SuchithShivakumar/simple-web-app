@@ -6,6 +6,8 @@ public class Product {
   private String name;
   private float price;
   private int barCode;
+  private String city;
+  private String state;
 
   public Product() {
 
@@ -16,6 +18,8 @@ public class Product {
     this.name = name;
     this.price = price;
     this.barCode = barCode;
+    this.city = city;
+    this.state = state;
   }
 
   public String getCode() {
@@ -41,5 +45,20 @@ public class Product {
   public void setPrice(float price) {
     this.price = price;
   }
-
+  
+  public String getState(){
+    return state;
+  }
+  
+  public void setState(String State){
+    this.state = state;
+  }
+  
+  public String getCity(){
+    return city;
+  }
+  
+  public void setCity(){
+    this.city = city;
+  }
 }
